@@ -1,0 +1,20 @@
+body{
+	background-image:url("back.jpg");
+}
+
+p{
+color:yellow;
+text-align: center;
+}
+
+.jedi{
+	float:left;
+	width:14%;
+
+}
+
+.sith{
+	float:right;
+	width:25.6%;
+
+}
