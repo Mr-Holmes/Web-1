@@ -1,0 +1,40 @@
+body{
+
+background-color: black;
+}
+h1{
+	color:yellow;
+	text-align: center;
+	font-size: 100px;
+	font-style: italic;
+}
+#D{
+	background-color: white;
+
+}
+img{
+	height: 12%;
+	width: 15%;
+	float:left;
+
+}
+tr,th{
+
+	color:red;
+	text-align: left;
+	border: 3px solid white;
+	padding: 5px;
+}
+
+a:hover{
+    color:black;
+}
+
+#e{
+	align-items: center;
+}
+.a{
+	color:yellow;
+	font-size: 17px;
+	font-family: italic;
+}
