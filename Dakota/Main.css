@@ -1,23 +1,30 @@
 body{
 
-background-color: black;
+background-color:black;
 }
-img{
-	height: 12%;
-	width: 12%;
-	float:left;
+#back{
+	background-image:url("last3.jpg");
+	background-repeat: no-repeat;
+	margin:auto;
+	height:100%;
+	width:100%;
 }
-
 h1{
 	color:yellow;
 	text-align: center;
 	font-size: 100px;
 	font-style: italic;
 }
+img{
+	height: 30%
+
+}
 
 #D{
 	background-color: white;
-
+	
+height:100%;
+	width:100%;
 
 }
 	
