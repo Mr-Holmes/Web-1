@@ -3,8 +3,6 @@ body{
 background-color:black;
 }
 #back{
-	background-image:url("last3.jpg");
-	background-repeat: no-repeat;
 	margin:auto;
 	height:100%;
 	width:100%;
@@ -36,11 +34,13 @@ tr,th{
 	padding: 5px;
 }
 
-/*a:visited{
-	color:blue;
-
-}*/
 a:hover{
     color:black;
 }
-	
+
+p{
+	color:yellow;
+	font-size: 17px;
+	font-family: italic;
+	text-align: center;
+	}

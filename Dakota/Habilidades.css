@@ -26,6 +26,10 @@ tr,th{
 a:hover{
     color:black;
 }
+
+#home{
+	text-align: right;
+}
 .s{
 	color:yellow;
 	font-size: 17px;

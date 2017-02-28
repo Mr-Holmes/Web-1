@@ -25,6 +25,9 @@ tr,th{
 	border: 3px solid white;
 	padding: 5px;
 }
+#home{
+	text-align: right;
+}
 
 a:hover{
     color:black;
