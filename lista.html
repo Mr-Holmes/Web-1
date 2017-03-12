@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>uhu</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<table style="width: 15%">
+		
+			<tr>
+				<th colspan="1"> Nome </th>
+				<th colspan="1"> ID </th>
+			</tr>
+			<tr>
+				<td>Link</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Morgana</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>Arthur</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>Merlin</td>
+				<td>4</td>
+			</tr>
+	</table>
+	<!--form action="" method="post">
+		<p><input type ="text" name="campo1"></p>
+		<p><input type="submit" name="enviar"></p>
+	</form-->
+</body>
+</html>
+
+<?php 
+(isset($_GET['heroi'])) ? $heroi = $_GET['nome']: $heroi = null;
+if (isset($_GET['poder'])) $poder = $_GET['poder'];
+
+switch ($heroi):
+	case 'logan':
+	echo "Heae xaraa" . $poder;
+		break;
+	
+	default:
+		# code...
+		break;
+endswitch;
+?>
