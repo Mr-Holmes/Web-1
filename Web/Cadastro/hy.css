@@ -1,0 +1,16 @@
+.dc{	
+	width: 30%;
+	height: 30%;
+	}
+
+
+.marvel{
+	width: 30%;
+	height: 30%;
+	margin-top:400px;
+	float: right;
+
+}
+body{
+	background-image: url("woo.jpg"); 
+}

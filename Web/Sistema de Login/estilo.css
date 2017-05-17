@@ -1,0 +1,25 @@
+body{
+	background-color: black
+}
+.id{
+	background-color: salmon;
+	text-align: center; 
+}
+p{
+	color: white;
+	font-style: italic;
+
+}
+.left{
+	float: left;
+}
+#lorem{
+	color:white;
+	font-style: italic;
+	text-align: center;
+	font-size: 50px;
+}
+#posicao{
+	float: right;
+	font-size: 15px;
+}

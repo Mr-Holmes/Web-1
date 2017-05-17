@@ -1,0 +1,12 @@
+body{
+
+}
+.left{
+	float: left;
+	font-style: italic;
+}
+.center{
+	float: center;
+	font-style: italic;
+	margin-left: 500px; 
+}

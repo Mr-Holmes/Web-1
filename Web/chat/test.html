@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p id="content"></p>
+    <input type="text" id="numero">
+    <input type="text" id="nome">
+    <a href="#" id="link">Carregar conteúdo</a>
+    <script>
+        document.getElementById('link').addEventListener('click', function() {
+            var numero = document.getElementById('numero').value;
+            var nome = document.getElementById('nome').value;
+            var obj = {'numero': numero, 'nome': nome};
+
+            $.get('test.php?data=' + JSON.stringify(obj), function(result) {
+                var obj = JSON.parse(result);
+                if (obj.erro) {
+                    alert("deu ruim, meu pirraia");
+                } else {
+                    var paragrafo = document.getElementById('content');
+                    paragrafo.innerHTML += "<ul><li>" + obj.nome + "</li><li>" + obj.nick + "</li><li>" + obj.idade + "</li></ul>";
+                }
+            });
+        })
+    </script>
+</body>
+</html>
